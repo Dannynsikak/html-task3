@@ -184,9 +184,108 @@
       .Sign-up-form {
         width: 470px;
         height: 550px;
-        background-color: bisque;
+        background-color: #ffffff;
         margin-left: 46px;
         border-radius: 5px;
+      }
+      .tape {
+        width: 470px;
+        height: 450px;
+        /* background-color: red; */
+        padding-top: 80px;
+      }
+      #eel {
+        width: 330px;
+        height: 50px;
+        border-radius: 25px;
+        border: 2px solid #15143966;
+        padding: 1px 10px;
+        outline: none;
+        margin: 10px 0px;
+      }
+      .button {
+        width: 330px;
+        height: 50px;
+        border-radius: 25px;
+        margin-left: 81px;
+        margin-top: 20px;
+        background-color: #25dac5;
+        border-width: 0px;
+        color: #ffffff;
+      }
+      #val {
+        width: 330px;
+        height: 50px;
+        border-radius: 25px;
+        margin-left: 81px;
+        background-color: #1da1f2;
+        color: #ffffff;
+        border-width: 0px;
+      }
+      .testimonial {
+        width: 1400px;
+        height: 800px;
+        background-color: #1e0e62;
+        padding-top: 60px;
+      }
+      #ape {
+        width: 364px;
+        height: 52px;
+        /* background-color: red; */
+        margin-left: 215px;
+        font-size: 35px;
+        color: #ffffff;
+      }
+      #wet-on {
+        width: 1000px;
+        height: 600px;
+        /* background-color: aqua; */
+        margin-left: 215px;
+        /* margin-top: 30px; */
+      }
+      #under {
+        width: 470px;
+        height: 237px;
+        /* background-color: red; */
+        border: 1px solid #c7c6cc;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: row;
+      }
+      #tab {
+        width: 470px;
+        height: 237px;
+        margin-left: 60px;
+        /* background-color: purple; */
+        border: 1px solid #c7c6cc;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: row;
+      }
+      #jack {
+        width: 470px;
+        height: 237px;
+        /* background-color: red; */
+        border: 1px solid #c7c6cc;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: row;
+      }
+      #undker {
+        width: 470px;
+        height: 237px;
+        /* background-color: #1e0e62; */
+        margin-left: 60px;
+        border: 1px solid #c7c6cc;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: row;
+      }
+      .eagle {
+        width: 1400px;
+        height: 605px;
+        background-image: url(images/5Background.png);
+        background-color: #2f1893;
       }
     </style>
   </head>
@@ -261,7 +360,7 @@
           <h5>
             Startup Framework gives you complete freedom over your creative
             <br />
-            process — you don’t have to think about any technical aspects. There
+            process — you don't have to think about any technical aspects. There
             <br />
             are no limits and absolutely no coding.
           </h5>
@@ -422,9 +521,14 @@
                 margin: auto;
                 font-size: 14px;
                 text-align: center;
+                margin-top: 40px;
               "
             >
-              <label for="#">Sign Up</label>
+              <label for="#"
+                ><a style="text-decoration: none; color: #1e0e62" href=""
+                  >Sign Up</a
+                >
+              </label>
             </div>
             <div
               style="
@@ -433,12 +537,262 @@
                 margin: auto;
                 font-size: 14px;
                 text-align: center;
+                margin-top: 40px;
               "
             >
-              <label for="#"></label>Login
+              <label for="#"></label>
+              <a style="text-decoration: none; color: #15143966" href=""
+                >Login</a
+              >
+            </div>
+          </div>
+          <div style="display: flex; flex-direction: row">
+            <hr
+              style="
+                width: 235px;
+                height: 3px;
+                background-color: #1e0e62;
+                margin-left: -0px;
+              "
+            />
+            <hr
+              style="
+                width: 235px;
+                height: 3px;
+                background-color: #ebeaed;
+                margin-left: -1px;
+              "
+            />
+          </div>
+          <div class="tape">
+            <form style="margin-left: 70px" action="#" method="get">
+              <input id="eel" type="email" placeholder="Your email" />
+              <input id="eel" type="password" placeholder="Your password" />
+            </form>
+
+            <form action="#" method="get">
+              <button class="button">Create an Account</button>
+            </form>
+            <div style="display: flex; flex-direction: row">
+              <div>
+                <hr
+                  style="
+                    width: 142px;
+                    height: 2px;
+                    background-color: #141414;
+                    opacity: 0.1;
+                    margin-left: 85px;
+                    margin-top: 25px;
+                  "
+                />
+              </div>
+              <p
+                style="
+                  margin-right: 215px;
+                  color: #141414;
+                  opacity: 0.3;
+                  font-size: 16px;
+                  margin-left: 10px;
+                "
+              >
+                or
+              </p>
+              <div>
+                <hr
+                  style="
+                    width: 142px;
+                    height: 2px;
+                    background-color: #141414;
+                    opacity: 0.1;
+                    margin-left: -210px;
+                    margin-top: 25px;
+                  "
+                />
+              </div>
+            </div>
+            <form action="#" method="get">
+              <button id="val">Login via Twitter</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </main>
+    <section class="testimonial">
+      <div style="margin-top: 100px">
+        <div id="ape"><h3>Our Happy Clients</h3></div>
+      </div>
+      <div id="wet-on">
+        <div style="display: flex; flex-direction: row">
+          <div id="under">
+            <div
+              style="
+                width: 70px;
+                height: 70px;
+                margin: 15px 15px;
+                display: flex;
+                flex-direction: row;
+              "
+            >
+              <img src="./images/1Mask.png" alt="" />
+            </div>
+            <div
+              style="
+                width: 307px;
+                height: 179px;
+                font-size: 19px;
+                color: #ffffff;
+              "
+            >
+              <p>
+                Get a fully retina ready site when <br />
+                you build with Startup Framework. <br />
+                Websites look sharper and more <br />
+                gorgeous on devices with retina <br />
+                display support
+              </p>
+              <br />
+              <div><p style="opacity: 0.3">Rayhan Curran</p></div>
+            </div>
+          </div>
+          <div id="tab">
+            <div style="width: 70px; height: 70px; margin: 15px 15px">
+              <img src="./images/2Mask.png" alt="" />
+            </div>
+            <div
+              style="
+                width: 307px;
+                height: 179px;
+                font-size: 20px;
+                color: #ffffff;
+              "
+            >
+              <p>
+                As a business targeting high net <br />
+                worth individuals, we were looking <br />
+                for a slick, cool and mini-malistic <br />
+                design for our website
+              </p>
+              <br />
+              <div style="width: 123px; height: 26px">
+                <p style="opacity: 0.3">Kayley Frame</p>
+              </div>
             </div>
           </div>
         </div>
+        <div style="margin-top: 70px; display: flex; flex-direction: row">
+          <div id="jack">
+            <div style="width: 70px; height: 70px; margin: 15px 15px">
+              <img src="./images/3Userpic.png" alt="" />
+            </div>
+            <div
+              style="
+                width: 307px;
+                height: 179px;
+                font-size: 19px;
+                color: #ffffff;
+              "
+            >
+              <p>
+                The most important part of the Startup Framework is the samples
+              </p>
+              <br /><br /><br />
+              <div style="width: 140px; height: 26px">
+                <p style="opacity: 0.3">Gene Whitfield</p>
+              </div>
+            </div>
+          </div>
+          <div id="undker">
+            <div style="width: 70px; height: 70px; margin: 15px 15px">
+              <img src="./images/4Userpic.png" alt="" />
+            </div>
+            <div
+              style="
+                width: 307px;
+                height: 179px;
+                font-size: 19px;
+                color: #ffffff;
+              "
+            >
+              <p>
+                I've built my website with Startup <br />
+                just in one day, and it was <br />
+                ready-to-go.
+              </p>
+              <br />
+              <br />
+              <div style="width: 90px; height: 26px; opacity: 0.3">
+                <p>Allan Kim</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <main class="eagle">
+      <div
+        style="width: 770px; height: 277px; margin: auto; padding-top: 100px"
+      >
+        <div style="width: 770px; height: 277px">
+          <div
+            style="
+              width: 770px;
+              height: 161px;
+              font-size: 30px;
+              color: #ffffff;
+              text-align: center;
+            "
+          >
+            <h2>
+              Easy to setup. <br />
+              Easy to maintain
+            </h2>
+          </div>
+          <div
+            style="
+              width: 518px;
+              height: 96px;
+              font-size: 22px;
+              text-align: center;
+              color: #ffffff;
+              margin: auto;
+            "
+          >
+            <h5>
+              Bootstrap is a widely-used, sleek, intuitive and <br />
+              powerful front-end framework for faster and <br />
+              easier web development.
+            </h5>
+          </div>
+        </div>
+      </div>
+      <div
+        style="
+          width: 313px;
+          height: 70px;
+          margin: auto;
+          padding-top: 80px;
+          display: flex;
+          flex-direction: row;
+        "
+      >
+        <div style="width: 70px; height: 70px">
+          <a href=""><img src="./images/6Icon - Fill.png" alt="" /></a>
+        </div>
+        <form action="#" method="get">
+          <button
+            style="
+              width: 213px;
+              height: 70px;
+              margin-left: 45px;
+              background-color: #25dac5;
+              border-radius: 25px;
+              border-width: 0px;
+              color: #ffffff;
+            "
+          >
+            Get Started
+          </button>
+        </form>
       </div>
     </main>
   </body>
