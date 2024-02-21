@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .flex-container {
+        display: flex;
+        flex-direction: row;
+        overflow-x: hidden;
+      }
+
+      #one {
+        border-top: transparent;
+        border-right: transparent;
+        border-left: transparent;
+        outline: none;
+        margin-bottom: 10px;
+      }
+      #three {
+        border-top: transparent;
+        border-right: transparent;
+        border-left: transparent;
+        margin-bottom: 10px;
+        outline: none;
+      }
+      input:hover {
+        border-color: #edb842;
+      }
+      #greg {
+        margin-bottom: 15px;
+      }
+      #dog {
+        display: flex;
+        flex-direction: row;
+        /* white-space: 0px; */
+        gap: 15px;
+        margin-bottom: 25px;
+      }
+      #bat {
+        width: 500px;
+        height: 100px;
+      }
+      #rat {
+        width: 415px;
+        height: 190px;
+      }
+      #owl {
+        width: 415px;
+        height: 190px;
+      }
+      #red {
+        width: 350px;
+        /* background-color: aqua; */
+        margin-left: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- main div -->
+    <div class="flex-container" style="height: 380px; width: 830px">
+      <!-- first div -->
+      <div id="owl">
+        <img
+          style="height: 350px; width: 380px"
+          src="./images/auth-image.787c4db7ef45b3183924.png"
+          alt=""
+        />
+      </div>
+      <!-- 2nd div -->
+      <div id="rat">
+        <div id="red">
+          <div><h1>Login to sondya</h1></div>
+          <div><p>Enter your details below</p></div>
+          <div id="greg" style="height: 30px; width: 500px">
+            <input
+              id="one"
+              style="border-width: 2px; height: 28px; width: 190px"
+              type="text"
+              placeholder="Email"
+            />
+          </div>
+          <div>
+            <input
+              id="three"
+              style="border-width: 2px; height: 28px; width: 190px"
+              type="password"
+              placeholder="6+ characters"
+            />
+          </div>
+          <div style="width: 300px" id="dog">
+            <div>
+              <button
+                style="
+                  padding-top: 9px;
+                  padding-bottom: 9px;
+                  padding-left: 30px;
+                  padding-right: 30px;
+                  border-radius: 5px;
+                  color: white;
+                  background-color: #edb842;
+                  outline: none;
+                  border-color: transparent;
+                "
+              >
+                Login
+              </button>
+            </div>
+            <div>
+              <span style="color: #d14842" id="colour"
+                >Forgotten password?</span
+              >
+            </div>
+          </div>
+          <div id="bat">
+            <button
+              style="
+                border-width: 2px;
+                border-style: solid;
+                border-color: #edb842;
+                width: 200px;
+                height: 60px;
+                border-radius: 10px;
+              "
+            >
+              <div style="margin-bottom: 10px">
+                <a href="#bat">Don't have an account?</a>
+              </div>
+              <div><a href="#bat">Sign up</a></div>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
